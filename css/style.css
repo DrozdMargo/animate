@@ -1,0 +1,29 @@
+
+section{
+	width: 100%;
+	height: 100%;
+
+}
+.box img, .box1 img, .box2 img, .box3 img {
+	max-width: 100%;
+	height: 250px;
+	
+}
+.boxHidded{
+	visibility: hidden;
+}
+
+.boxVisible{
+	visibility: visible;
+}
+.box, .box1, .box2, .box3{
+	width: 400px;
+	float: left;
+}
+.box {
+	animation-delay: .3s;
+}
+.box1{
+	margin-left: 400px;
+	animation-delay: .6s;
+}
